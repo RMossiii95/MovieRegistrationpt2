@@ -1,0 +1,36 @@
+﻿<h2>User Input Form</h2>
+
+
+
+<form action="Result">
+    <p>ID</p>
+
+    <input type="text" name="ID" />
+
+    <p>Title</p>
+    <input type="text" name="Title" required maxlength="50" />
+
+
+    <label for="Genre"> Choose a Genre:</label>
+    <select name="Genre" id="Genre">
+        <option value="Action">Action</option>
+        <option value="Sci-Fi">Sci-Fi</option>
+        <option value="Comedy">Comedy</option>
+        <option value="Romance">Romance</option>
+        <option value="Horror">Horror</option>
+        <option value="Suspense">Suspense</option>
+    </select>
+
+    <p>Year</p>
+    <input type="date" name="Year" />
+
+    <p>RunTime</p>
+    <input type="number" name="RunTime"/>
+
+    <!--<p>Actors</p>
+    <input type="text" name="Actors" />-->
+    <!--<p>Directors</p>-->
+    <!--<input type="text" name="Directors" />-->
+
+    <input type="submit" />
+</form>
